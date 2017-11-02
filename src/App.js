@@ -14,6 +14,22 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <p className="App-intro">
+          <a data-tip data-for='tooltip-1' data-event='click'>Click me first: ( •̀д•́)</a>
+          <ReactTooltip id='tooltip-1' place="right" globalEventOff='click'>tooltip content</ReactTooltip>
+        </p>
+
+        <p className="App-intro">
+          <a data-tip data-for='tooltip-2' data-event='click'>Click me second: ( •̀д•́)</a>
+          <ReactTooltip id='tooltip-2' place="right" globalEventOff='click'>tooltip content</ReactTooltip>
+        </p>
+
+        <p className="App-intro">
+          <a data-tip data-for='tooltip-3' data-event='click'>Click me third: ( •̀д•́)</a>
+          <ReactTooltip id='tooltip-3' place="right" globalEventOff='click'>tooltip content</ReactTooltip>
+        </p>
+
       </div>
     );
   }
